@@ -455,7 +455,8 @@ footer{background:#061324}
 /* Final project hero image treatment */
 .projects-hero .inner-hero-grid{grid-template-columns:1fr 1fr;gap:44px;align-items:center}
 .projects-hero .portfolio-hero-visual{
-  min-height:0!important;
+  min-height:410px!important;
+  height:410px;
   padding:0!important;
   overflow:hidden;
   border-radius:28px;
