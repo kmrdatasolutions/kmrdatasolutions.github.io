@@ -10,6 +10,7 @@ const SITE_CONFIG = {
   email: "kmrdatasolutions@gmail.com",
   whatsapp: "+910000000000",
   githubUsername: "kmrdatasolutions",
+  githubProfile: "https://github.com/kmrdatasolutions",
 
   services: [
     { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M7 16l3-4 3 2 4-6"/></svg>`, title: "Data Analysis", text: "Turn raw information into clear trends, patterns and findings you can actually use." },
