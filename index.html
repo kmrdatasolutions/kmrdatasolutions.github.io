@@ -1,23 +1,147 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="KMR Data Solutions — professional data analytics and business services.">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KMR Data Solutions — professional data analytics, dashboards, data cleaning and business intelligence services.">
 <title>Home | KMR DATA SOLUTIONS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body>
-<div class="topbar"><div class="container"><span>Professional Data &amp; Analytics Services</span><a href="contact.html">Let's Work Together →</a></div></div>
-<header class="header"><div class="container nav">
-<a class="brand" href="index.html"><img src="assets/kmr-logo.png" alt="KMR Data Solutions"><span><strong>KMR</strong><small>DATA SOLUTIONS</small></span></a>
-<button class="menu-btn" aria-label="Menu">☰</button><nav class="nav-links"><a class="active" href="index.html">Home</a><a class="" href="about.html">About</a><a class="" href="services.html">Services</a><a class="" href="projects.html">Projects</a><a class="" href="skills.html">Skills</a><a class="" href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Get Started →</a></nav>
-</div></header>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+<div class="topbar"><div class="container topbar-inner">
+  <span>Professional Data &amp; Analytics Services</span>
+  <a href="contact.html">Let's Work Together →</a>
+</div></div>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="KMR Data Solutions Home">
+      <img src="assets/kmr-logo.png" alt="KMR Data Solutions">
+      <span><strong>KMR</strong><small>DATA SOLUTIONS</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a data-nav="home" href="index.html">Home</a>
+      <a data-nav="about" href="about.html">About</a>
+      <a data-nav="services" href="services.html">Services</a>
+      <a data-nav="projects" href="projects.html">Projects</a>
+      <a data-nav="skills" href="skills.html">Skills</a>
+      <a data-nav="contact" href="contact.html">Contact</a>
+      <a class="nav-cta" href="contact.html">Get Started →</a>
+    </nav>
+  </div>
+</header>
 
-<section class="page-hero"><div class="container"><div class="eyebrow">KMR DATA SOLUTIONS</div>
-<h1>Turning <span>Data</span> Into<br>Real-World Impact.</h1>
-<p>Professional data services that help businesses organize information, understand performance and make smarter decisions.</p>
-<div class="hero-actions"><a class="btn btn-primary" href="services.html">Explore Services →</a><a class="btn btn-light" href="projects.html">View Projects</a></div></div></section>
-<section class="section"><div class="container intro"><div><div class="label">WHY KMR DATA SOLUTIONS</div><h2>From raw data to <span>clear direction.</span></h2><p>We combine accuracy, analytics and visualization to make your data more useful and your reporting more effective.</p></div><div class="quote"><strong>“Good data creates better decisions.”</strong><span>Data Analysis • Visualization • Business Insights • Data Entry</span></div></div></section>
-<section class="section" style="background:#f5f8fc"><div class="container"><div class="section-head"><div class="label">OUR CAPABILITIES</div><h2>Built for <span>better decisions.</span></h2><p>Explore our core services and choose the support your business needs.</p></div><div id="homeServices" class="service-grid"></div></div></section>
-<section class="section"><div class="container"><div class="section-head"><div class="label">PORTFOLIO</div><h2>Selected <span>Projects</span></h2><p>Explore practical analytics projects and dashboards.</p></div><div id="homeProjects" class="project-grid"></div></div></section>
+<main>
+<section class="hero">
+  <div class="hero-orb hero-orb-one"></div><div class="hero-orb hero-orb-two"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">DATA ANALYSIS • REPORTING • BUSINESS INSIGHTS</div>
+      <h1>Turn Your Data Into <span>Decisions</span> That Move Business Forward.</h1>
+      <p>From messy spreadsheets to clear dashboards and useful insights, KMR Data Solutions helps you understand your information and act with confidence.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="contact.html">Discuss Your Data Needs →</a><a class="btn btn-outline" href="projects.html">See Our Work</a>
+      </div>
+      <div class="hero-metrics">
+        <div><strong id="repoCount">—</strong><span>Public GitHub Projects</span></div>
+        <div><strong>6</strong><span>Core Data Services</span></div>
+        <div><strong>1</strong><span>Clear Goal: Better Decisions</span></div>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="media-badge badge-top"><b>▥</b><span>Analyze<br>Visualize<br>Grow</span></div>
+      <img src="assets/hero-data-analytics.png" alt="Professional analytics workspace with dashboard charts">
+      <div class="media-badge badge-bottom"><b>↗</b><span>From Data<br>to Decisions</span></div>
+    </div>
+  </div>
+</section>
 
-<footer><div class="container footer"><div class="footer-brand"><img src="assets/kmr-logo.png" alt=""><div><strong>KMR DATA SOLUTIONS</strong><span>Turning Data Into Real-World Impact</span></div></div><span>© <span class="year"></span> KMR Data Solutions. All rights reserved.</span></div></footer>
-<script src="config.js"></script><script src="script.js"></script></body></html>
+<section class="section">
+  <div class="container">
+    <div class="section-kicker">WHY YOUR DATA MATTERS</div>
+    <div class="split-heading"><h2>Your data should work harder for <span>your business.</span></h2><p>When information is scattered, decisions become slower and harder. We organize, clean, analyze and visualize data so you can focus on what the numbers are telling you — and what to do next.</p></div>
+    <div class="feature-grid">
+      <article class="feature-card"><div class="feature-icon">✓</div><h3>Trust the Data</h3><p>Clean, organized information gives you a stronger foundation for every decision.</p></article>
+      <article class="feature-card"><div class="feature-icon">◈</div><h3>See What Matters</h3><p>Clear analysis and visualization help important trends and patterns stand out.</p></article>
+      <article class="feature-card"><div class="feature-icon">↗</div><h3>Act With Clarity</h3><p>Reports and dashboards turn findings into practical next steps for your business.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head"><div class="section-kicker">WHAT WE CAN DO</div><h2>Data support built around <span>your decisions.</span></h2><p>Whether the challenge is messy data, unclear reporting or a need for better visibility, we help turn information into something useful.</p></div>
+    <div id="homeServices" class="service-grid"></div>
+    <div class="center"><a class="btn btn-dark" href="services.html">Explore All Services →</a></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div class="section-kicker">PROOF OF WORK</div><h2>See how data becomes <span>useful.</span></h2><p>Explore public analytics projects and see the tools, analysis and business thinking behind the work.</p></div>
+    <div id="homeProjects" class="project-grid project-preview"></div>
+    <div class="center"><a class="btn btn-dark" href="projects.html">View All GitHub Projects →</a></div>
+  </div>
+</section>
+
+
+<section class="section case-study-section">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">REAL PROJECT PREVIEWS</div>
+      <h2>See the work. <span>Not just the promise.</span></h2>
+      <p>These previews come from public KMR Data Solutions GitHub projects, so visitors can see the type of dashboards and analysis work behind the service.</p>
+    </div>
+    <div class="case-grid home-insight-grid">
+      <article class="case-card">
+        <div class="case-image"><img src="https://raw.githubusercontent.com/kmrdatasolutions/Comprehensive-Sales-Profit-Analysis/main/comprehensive-sales-profit-analysis.png" alt="Comprehensive Sales and Profit Analysis dashboard showing business performance insights" loading="lazy"></div>
+        <div class="case-body"><span>POWER BI • EXCEL • BUSINESS INSIGHTS</span><h3>Sales &amp; Profit Business Insights</h3><p>A real KMR project that turns sales, profit, quantity, shipping, market and regional data into clear performance insights.</p><a href="https://github.com/kmrdatasolutions/Comprehensive-Sales-Profit-Analysis" target="_blank" rel="noopener">Explore Project →</a></div>
+      </article>
+      <article class="case-card">
+        <div class="case-image"><img src="https://raw.githubusercontent.com/kmrdatasolutions/E-Commerce-Sales-Data-Analysis/main/E-Commerce%20Sales%20Dashboard%20project.png" alt="E-Commerce Sales dashboard showing sales and profit business insights" loading="lazy"></div>
+        <div class="case-body"><span>POWER BI • EXCEL • BUSINESS INSIGHTS</span><h3>E-Commerce Sales Insights</h3><p>A practical KMR analysis of sales, profit, products, cities, states and time-based performance to support better decisions.</p><a href="https://github.com/kmrdatasolutions/E-Commerce-Sales-Data-Analysis" target="_blank" rel="noopener">Explore Project →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="split-heading">
+      <div><div class="section-kicker">WHY WORK WITH KMR</div><h2>Professional data work without the <span>data headache.</span></h2></div>
+      <p>You do not need another complicated report. You need information that is organized, understandable and useful. Our approach is built around the business question first — then the data, tools and visuals needed to answer it.</p>
+    </div>
+    <div class="expect-grid">
+      <article><b>01</b><h3>We start with the question</h3><p>What do you need to know, track or improve? That question shapes the analysis.</p></article>
+      <article><b>02</b><h3>We make the data usable</h3><p>Cleaning, formatting and organization come before conclusions, so the output has a dependable foundation.</p></article>
+      <article><b>03</b><h3>We make the result clear</h3><p>Dashboards and reports are designed so the important story is easier to see and communicate.</p></article>
+      <article><b>04</b><h3>We keep the next step simple</h3><p>The goal is a practical result you can use — not a complicated deliverable that creates more work.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container cta-inner"><div><div class="section-kicker">YOUR NEXT DECISION STARTS HERE</div><h2>Have data. Need <span>clarity?</span></h2><p>Tell us what you are trying to understand, improve or report. Let’s turn that requirement into a clear next step.</p></div><a class="btn btn-primary" href="contact.html">Let's Work Together →</a></div>
+</section>
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/kmr-logo.png" alt="">
+      <div><strong>KMR DATA SOLUTIONS</strong><span>Turning Data Into Real-World Impact</span></div>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+      <a href="projects.html">Projects</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-right"><span>© <span class="year"></span> KMR Data Solutions</span></div>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

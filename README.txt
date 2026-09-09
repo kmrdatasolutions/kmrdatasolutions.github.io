@@ -1,30 +1,28 @@
-KMR DATA SOLUTIONS — MULTI-PAGE WEBSITE
+KMR DATA SOLUTIONS — CONVERSION-FOCUSED PROFESSIONAL VERSION
 
-Pages:
-1. index.html    = Home
-2. about.html    = About
-3. services.html = Services
-4. projects.html = Projects
-5. skills.html   = Skills
-6. contact.html  = Contact
+Added:
+- Stronger client-first messaging across all six pages.
+- Real public GitHub project preview images on Home and Projects.
+- "Why work with KMR" section focused on practical business outcomes.
+- "What you can expect" section on Services.
+- Featured project case studies linked directly to the public repositories.
+- No fabricated testimonials or unsupported business claims.
 
-EDITING:
-Open config.js. You can edit company name, email, WhatsApp, GitHub username,
-services, skills, projects and process without changing HTML/CSS.
+Verified public GitHub examples used as featured work:
+- Comprehensive Sales & Profit Analysis
+- E-Commerce Sales Dashboard
+- Paralympic Games 360 Analysis
+- HR & Payroll MIS Automation
 
-LOGO:
-assets/kmr-logo.png
+Projects page still loads ALL public GitHub repositories page-by-page, with search,
+language filtering and sorting.
 
-GITHUB:
-Set githubUsername to your public GitHub username. Public repositories will
-load automatically on projects.html. If left unchanged, the manually listed
-projects in config.js are used.
+Keep your original assets/kmr-logo.png in the assets folder.
+Edit config.js for email, WhatsApp and GitHub username.
 
-CONTACT:
-Replace email and whatsapp in config.js. WhatsApp uses country code without +.
 
-RUN:
-Double-click index.html, or use VS Code Live Server for best testing.
+V4.1 updates: Home now highlights only two real KMR business-insight projects; Data Entry is removed from Home services but remains on Services; Projects page featured cards are image-free and the GitHub Portfolio panel uses a real KMR dashboard preview; typography/theme refined for a premium BI look.
 
-PUBLISH:
-Upload all files/folders to GitHub Pages, Netlify, or your hosting account.
+Final visual update: Projects hero uses the supplied professional analytics image with no overlay text, footer GitHub corner link removed, and typography is matched to the original GitHub repository font: Inter.
+
+Font correction: all pages now use Inter only, matching the original GitHub repository (style.css/index.html).

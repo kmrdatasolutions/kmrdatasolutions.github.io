@@ -12,18 +12,25 @@ const SITE_CONFIG = {
   githubUsername: "kmrdatasolutions",
 
   services: [
-    { icon: "▥", title: "Data Analysis", text: "Transform raw data into clear trends, patterns and actionable business insights." },
-    { icon: "✎", title: "Data Entry", text: "Accurate data entry, spreadsheet management, formatting and organized digital records." },
-    { icon: "◔", title: "Data Visualization", text: "Create clean dashboards, charts and reports that make information easy to understand." },
-    { icon: "✦", title: "Business Insights", text: "Turn data findings into practical recommendations for smarter business decisions." },
-    { icon: "▤", title: "Data Cleaning & formatting", text: "Remove errors, duplicates and inconsistencies to prepare reliable datasets." },
-    { icon: "◎", title: "Dashboard Development", text: "Build focused dashboards for KPIs, performance tracking and management reporting." }
+    { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M7 16l3-4 3 2 4-6"/></svg>`, title: "Data Analysis", text: "Turn raw information into clear trends, patterns and findings you can actually use." },
+    { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h12v16H6zM9 8h6M9 12h6M9 16h4"/></svg>`, title: "Data Entry", text: "Keep spreadsheets and records organized, consistent and ready for the next step." },
+    { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5m0 14h16M8 16v-5m4 5V7m4 9v-8"/></svg>`, title: "Data Visualization", text: "Make important numbers easier to see, understand and communicate through clear visuals." },
+    { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19h16M6 16l4-5 3 2 5-7M16 6h2v2"/></svg>`, title: "Business Insights", text: "Connect analysis to the business question so findings can support practical next steps." },
+    { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19h14M7 16l7-9 3 3-7 9H7zM13 5l2-2 4 4-2 2"/></svg>`, title: "Data Cleaning & formatting", text: "Clean and standardize data so analysis starts from a more dependable foundation." },
+    { icon: `<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 15v-3m4 3V8m4 7v-5"/></svg>`, title: "Dashboard Development", text: "Build focused dashboards that make KPIs, performance and reporting easier to monitor." }
   ],
 
   skills: [
-    ["▥","Microsoft Excel"], ["◉","Power BI"], ["⌘","SQL"],
-    ["◒","Data Visualization"], ["✎","Data Entry"], ["▤","Data Cleaning"],
-    ["◎","Dashboarding"], ["↗","Business Analytics"], ["◌","Reporting"], ["✦","MS Office"]
+    [`<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8l3 4-3 4m4-8h4m-4 4h4m-4 4h4"/></svg>`,"Microsoft Excel"],
+    [`<svg viewBox="0 0 24 24"><path d="M5 19V9m5 10V5m5 14v-7m5 7V3"/></svg>`,"Power BI"],
+    [`<svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg>`,"SQL"],
+    [`<svg viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 16v-5m4 5V7m4 9v-8"/></svg>`,"Data Visualization"],
+    [`<svg viewBox="0 0 24 24"><path d="M6 4h12v16H6zM9 8h6M9 12h6M9 16h4"/></svg>`,"Data Entry"],
+    [`<svg viewBox="0 0 24 24"><path d="M5 19h14M7 16l7-9 3 3-7 9H7zM13 5l2-2 4 4-2 2"/></svg>`,"Data Cleaning"],
+    [`<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 15v-3m4 3V8m4 7v-5"/></svg>`,"Dashboarding"],
+    [`<svg viewBox="0 0 24 24"><path d="M4 19h16M6 16l4-5 3 2 5-7"/></svg>`,"Business Analytics"],
+    [`<svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6zM9 11h6M9 15h6M9 7h3"/></svg>`,"Reporting"],
+    [`<svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>`,"MS Office"],
   ],
 
   projects: [

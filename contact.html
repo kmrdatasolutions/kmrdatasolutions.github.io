@@ -1,18 +1,81 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="KMR Data Solutions — professional data analytics and business services.">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KMR Data Solutions — professional data analytics, dashboards, data cleaning and business intelligence services.">
 <title>Contact | KMR DATA SOLUTIONS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body>
-<div class="topbar"><div class="container"><span>Professional Data &amp; Analytics Services</span><a href="contact.html">Let's Work Together →</a></div></div>
-<header class="header"><div class="container nav">
-<a class="brand" href="index.html"><img src="assets/kmr-logo.png" alt="KMR Data Solutions"><span><strong>KMR</strong><small>DATA SOLUTIONS</small></span></a>
-<button class="menu-btn" aria-label="Menu">☰</button><nav class="nav-links"><a class="" href="index.html">Home</a><a class="" href="about.html">About</a><a class="" href="services.html">Services</a><a class="" href="projects.html">Projects</a><a class="" href="skills.html">Skills</a><a class="active" href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Get Started →</a></nav>
-</div></header>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+<div class="topbar"><div class="container topbar-inner">
+  <span>Professional Data &amp; Analytics Services</span>
+  <a href="contact.html">Let's Work Together →</a>
+</div></div>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="KMR Data Solutions Home">
+      <img src="assets/kmr-logo.png" alt="KMR Data Solutions">
+      <span><strong>KMR</strong><small>DATA SOLUTIONS</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a data-nav="home" href="index.html">Home</a>
+      <a data-nav="about" href="about.html">About</a>
+      <a data-nav="services" href="services.html">Services</a>
+      <a data-nav="projects" href="projects.html">Projects</a>
+      <a data-nav="skills" href="skills.html">Skills</a>
+      <a data-nav="contact" href="contact.html">Contact</a>
+      <a class="nav-cta" href="contact.html">Get Started →</a>
+    </nav>
+  </div>
+</header>
 
-<section class="page-hero"><div class="container"><div class="eyebrow">LET'S CONNECT</div><h1>Let's turn your data into <span>something useful.</span></h1><p>Have a project, reporting requirement or data task? Get in touch and tell us what you need.</p></div></section>
-<section class="section"><div class="container"><div class="contact-wrap"><div><div class="label">START A CONVERSATION</div><h2>Ready to work with <span>KMR?</span></h2><p>Use email or WhatsApp to discuss your requirements.</p></div><div class="contact-actions"><a id="emailBtn" class="btn btn-primary" href="#">Email Us →</a><a id="whatsappBtn" class="btn btn-light" target="_blank" rel="noopener">WhatsApp</a></div></div></div></section>
-
-<footer><div class="container footer"><div class="footer-brand"><img src="assets/kmr-logo.png" alt=""><div><strong>KMR DATA SOLUTIONS</strong><span>Turning Data Into Real-World Impact</span></div></div><span>© <span class="year"></span> KMR Data Solutions. All rights reserved.</span></div></footer>
-<script src="config.js"></script><script src="script.js"></script></body></html>
+<main>
+<section class="inner-hero contact-hero">
+  <div class="container inner-hero-grid">
+    <div><div class="eyebrow">LET’S CONNECT</div><h1>Have Data That Needs <span>Direction?</span></h1><p>Tell us what you are trying to understand, improve or report. We’ll start with the problem and work toward a practical data solution.</p></div>
+    <div class="contact-visual"><div class="contact-icon">✉</div><strong>Start a conversation</strong><span>Clear requirements. Clear next steps.</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container contact-grid">
+    <div>
+      <div class="section-kicker">START A CONVERSATION</div><h2>Let’s talk about what your <span>data needs.</span></h2><p class="lead">A project, dashboard, reporting task or data cleanup? Share the requirement and the outcome you want. We’ll take it from there.</p>
+      <div class="contact-cards">
+        <a id="emailBtn" class="contact-card" href="#"><b>✉ Email Us</b><span id="emailText"></span><em>→</em></a>
+        <a id="whatsappBtn" class="contact-card" target="_blank" rel="noopener"><b>◉ WhatsApp</b><span>Chat on WhatsApp</span><em>→</em></a>
+        <a id="githubContact" class="contact-card" target="_blank" rel="noopener"><b>● GitHub</b><span>View all public projects</span><em>→</em></a>
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <h3>Tell Us What You Need</h3>
+      <label>Your Name<input id="contactName" required></label>
+      <label>Your Email<input id="contactEmail" type="email" required></label>
+      <label>Your Message<textarea id="contactMessage" rows="5" required></textarea></label>
+      <button class="btn btn-primary" type="submit">Start the Conversation →</button>
+      <small>The form opens your email app with the message prepared.</small>
+    </form>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/kmr-logo.png" alt="">
+      <div><strong>KMR DATA SOLUTIONS</strong><span>Turning Data Into Real-World Impact</span></div>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+      <a href="projects.html">Projects</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-right"><span>© <span class="year"></span> KMR Data Solutions</span></div>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

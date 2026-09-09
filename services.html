@@ -1,18 +1,86 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta name="description" content="KMR Data Solutions — professional data analytics and business services.">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="KMR Data Solutions — professional data analytics, dashboards, data cleaning and business intelligence services.">
 <title>Services | KMR DATA SOLUTIONS</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head><body>
-<div class="topbar"><div class="container"><span>Professional Data &amp; Analytics Services</span><a href="contact.html">Let's Work Together →</a></div></div>
-<header class="header"><div class="container nav">
-<a class="brand" href="index.html"><img src="assets/kmr-logo.png" alt="KMR Data Solutions"><span><strong>KMR</strong><small>DATA SOLUTIONS</small></span></a>
-<button class="menu-btn" aria-label="Menu">☰</button><nav class="nav-links"><a class="" href="index.html">Home</a><a class="" href="about.html">About</a><a class="active" href="services.html">Services</a><a class="" href="projects.html">Projects</a><a class="" href="skills.html">Skills</a><a class="" href="contact.html">Contact</a><a class="nav-cta" href="contact.html">Get Started →</a></nav>
-</div></header>
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="services">
+<div class="topbar"><div class="container topbar-inner">
+  <span>Professional Data &amp; Analytics Services</span>
+  <a href="contact.html">Let's Work Together →</a>
+</div></div>
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="KMR Data Solutions Home">
+      <img src="assets/kmr-logo.png" alt="KMR Data Solutions">
+      <span><strong>KMR</strong><small>DATA SOLUTIONS</small></span>
+    </a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a data-nav="home" href="index.html">Home</a>
+      <a data-nav="about" href="about.html">About</a>
+      <a data-nav="services" href="services.html">Services</a>
+      <a data-nav="projects" href="projects.html">Projects</a>
+      <a data-nav="skills" href="skills.html">Skills</a>
+      <a data-nav="contact" href="contact.html">Contact</a>
+      <a class="nav-cta" href="contact.html">Get Started →</a>
+    </nav>
+  </div>
+</header>
 
-<section class="page-hero"><div class="container"><div class="eyebrow">OUR SERVICES</div><h1>Data services that <span>move work forward.</span></h1><p>Flexible support for data entry, analytics, dashboards, cleaning and business reporting.</p></div></section>
-<section class="section"><div class="container"><div class="section-head"><div class="label">WHAT WE OFFER</div><h2>Professional <span>Data Services</span></h2></div><div id="servicesGrid" class="service-grid"></div></div></section>
+<main>
+<section class="inner-hero">
+  <div class="container inner-hero-grid">
+    <div><div class="eyebrow">OUR SERVICES</div><h1>Stop Fighting Your Data. <span>Start Using It.</span></h1><p>Practical support for data entry, cleaning, analysis, dashboards, visualization and business reporting.</p></div>
+    <div class="hero-panel"><div class="panel-chart">↗</div><strong>Data Solutions</strong><span>for a smarter tomorrow</span></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><div class="section-kicker">WHAT WE OFFER</div><h2>Services built around <span>real business needs.</span></h2><p>Choose focused support for the data tasks that are slowing you down or making decisions harder than they need to be.</p></div>
+    <div id="servicesGrid" class="service-grid service-grid-large"></div>
+  </div>
+</section>
 
-<footer><div class="container footer"><div class="footer-brand"><img src="assets/kmr-logo.png" alt=""><div><strong>KMR DATA SOLUTIONS</strong><span>Turning Data Into Real-World Impact</span></div></div><span>© <span class="year"></span> KMR Data Solutions. All rights reserved.</span></div></footer>
-<script src="config.js"></script><script src="script.js"></script></body></html>
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head"><div class="section-kicker">WHAT YOU CAN EXPECT</div><h2>Every service starts with <span>your business need.</span></h2><p>We keep the work practical: understand the requirement, work with the data, and deliver something that is easier to use.</p></div>
+    <div class="expect-grid">
+      <article><b>01</b><h3>Clear scope</h3><p>We focus on the specific reporting, data or analysis problem you need solved.</p></article>
+      <article><b>02</b><h3>Organized output</h3><p>Clean structure, consistent formatting and understandable presentation.</p></article>
+      <article><b>03</b><h3>Useful insight</h3><p>The result should help you see patterns, track performance or make a decision.</p></article>
+      <article><b>04</b><h3>Simple next step</h3><p>You should know what the numbers mean and what can be done with them.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head"><div class="section-kicker">THE OUTCOME</div><h2>Less data confusion. More <span>decision clarity.</span></h2></div>
+    <div class="dark-feature-grid"><div><b>01</b><h3>Organize</h3><p>Structure spreadsheets and datasets for easier use.</p></div><div><b>02</b><h3>Understand</h3><p>Analyze trends, patterns and key performance indicators.</p></div><div><b>03</b><h3>Communicate</h3><p>Turn findings into dashboards, reports and recommendations.</p></div></div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="assets/kmr-logo.png" alt="">
+      <div><strong>KMR DATA SOLUTIONS</strong><span>Turning Data Into Real-World Impact</span></div>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a>
+      <a href="projects.html">Projects</a><a href="skills.html">Skills</a><a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-right"><span>© <span class="year"></span> KMR Data Solutions</span></div>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
